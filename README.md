@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0217-contains-duplicate](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [1288-remove-covered-intervals](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1288-remove-covered-intervals](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1331-rank-transform-of-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
