@@ -14,38 +14,18 @@
  * }
  */
 class Solution {
-    // class Tuple{
-    //     TreeNode node;
-    //     int x;//horizontal distance
-    //     Tuple(TreeNode node,int x){
-    //         this.node=node;
-    //         this.x=x;
-    //     }
-    // }
+
+    List<Integer> ans=new ArrayList<>();
     public List<Integer> rightSideView(TreeNode root) {
-        List<Integer> ans=new ArrayList<>();
-        if(root==null) return ans;
-        TreeMap<Integer,Integer> map=new TreeMap<>();
-        Deque<TreeNode> q=new ArrayDeque<>();
-        q.offerLast(root);
-        int curLevel=0;
-        while(!q.isEmpty()){
-            int level=q.size();
-            for(int i=0;i<level;i++){
-                TreeNode node=q.pollFirst();
-                map.put(curLevel,node.val);
-                if(node.left!=null){
-                    q.offerLast(node.left);
-                }
-                if(node.right!=null){
-                    q.offerLast(node.right);
-                }
-            }
-            curLevel++;
-        }
-        for(int val:map.values()){
-            ans.add(val);
-        }
+        myFun(root,0);
         return ans;
+    }
+    void myFun(TreeNode root,int level){
+        if(root==null) return;
+        if(level==ans.size()){
+            ans.add(root.val);
+        }
+        myFun(root.right,level+1);
+        myFun(root.left,level+1);
     }
 }
