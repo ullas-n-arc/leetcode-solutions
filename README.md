@@ -8,12 +8,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0226-invert-binary-tree) |
+| [0513-find-bottom-left-tree-value](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0226-invert-binary-tree) |
+| [0513-find-bottom-left-tree-value](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -22,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0226-invert-binary-tree) |
+| [0513-find-bottom-left-tree-value](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -30,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0226-invert-binary-tree) |
+| [0513-find-bottom-left-tree-value](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Database
 |  |
