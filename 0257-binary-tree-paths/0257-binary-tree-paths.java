@@ -38,23 +38,18 @@ class Solution {
 
         // valid path only if both child are null
         //sb.append(root.val);
+        if(root==null) return;
         if(root.left==null&&root.right==null){
             sb.append(root.val);
             ans.add(sb.toString());
             return;
         }
         sb.append(root.val+"->");// not last
-        if(root.left==null){
-            myFun(root.right,sb);
-        }else if(root.right==null){
-            myFun(root.left,sb);
-        }else{
             int checkPoint=sb.length();
             myFun(root.left,sb);
             sb.setLength(checkPoint);
             myFun(root.right,sb);
             sb.setLength(checkPoint);
-        }
 
     }
 }
