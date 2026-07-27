@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0181-employees-earning-more-than-their-managers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0181-employees-earning-more-than-their-managers) |
 | [0584-find-customer-referee](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0584-find-customer-referee) |
 | [0586-customer-placing-the-largest-number-of-orders](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0586-customer-placing-the-largest-number-of-orders) |
+| [0596-classes-with-at-least-5-students](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0596-classes-with-at-least-5-students) |
 | [1141-user-activity-for-the-past-30-days-i](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1141-user-activity-for-the-past-30-days-i) |
 ## Array
 |  |
