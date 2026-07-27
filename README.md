@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0586-customer-placing-the-largest-number-of-orders](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0586-customer-placing-the-largest-number-of-orders) |
 | [0596-classes-with-at-least-5-students](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0596-classes-with-at-least-5-students) |
 | [1141-user-activity-for-the-past-30-days-i](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1141-user-activity-for-the-past-30-days-i) |
+| [1193-monthly-transactions-i](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1193-monthly-transactions-i) |
 ## Array
 |  |
 | ------- |
