@@ -1,27 +1,26 @@
 class Solution {
     public int totalFruit(int[] fruits) {
         int left=0;
-        int right=0;
-        int maxi=0;
-        HashMap<Integer,Integer> map=new HashMap<>();//element->last seen
-        for(right=0;right<fruits.length;right++){
-            map.put(fruits[right],right);
-            if(map.size()>2){
-                int min=Integer.MAX_VALUE;
-                int key=0;
-                for(Map.Entry<Integer,Integer> entry:map.entrySet()){
-                    if(entry.getValue()<=min){
-                        min=entry.getValue();
-                        key=entry.getKey();
-                    }
-                }
-                map.remove(key);
-                left=min+1;
+        int n=fruits.length;
+        TreeSet<Pair<Integer,Integer>> mySet=new TreeSet<>((a,b)->{
+            int compareValue=Integer.compare(a.getValue(),b.getValue());
+            if(compareValue==0){
+                return Integer.compare(a.getKey(),b.getKey());
             }
-            maxi=Math.max(maxi,right-left+1);
-
+            return compareValue;
+        });//fruit,last_seen
+        int maxLength=0;
+        for(int right=0;right<n;right++){
+            int currentFruit=fruits[right];
+            //if the fruit alread exists remove its old position
+            mySet.removeIf(pair->pair.getKey()==currentFruit);
+            mySet.add(new Pair(currentFruit,right));
+            if(mySet.size()>2){
+                left=mySet.pollFirst().getValue()+1;
+            }
+            maxLength=Math.max(maxLength,right-left+1);
         }
-        return maxi;
+        return maxLength;
     }
 
 }
