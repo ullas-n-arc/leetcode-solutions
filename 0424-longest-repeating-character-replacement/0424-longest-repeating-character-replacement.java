@@ -9,22 +9,22 @@ class Solution {
             int currentChar=s.charAt(right)-'A';
             freq[currentChar]++;
             int curLen=right-left+1;
-            maxFreq=fun(freq);
+            maxFreq=Math.max(maxFreq,freq[currentChar]);
             while(curLen-maxFreq>k){
                 freq[s.charAt(left)-'A']--;
                 left++;
                 curLen=right-left+1;
-                maxFreq=fun(freq);
+                maxFreq=Math.max(maxFreq,freq[currentChar]);
             }
             maxLength=Math.max(maxLength,right-left+1);
         }
         return maxLength;
     }
-    int fun(int[] nums){
-        int max=0;
-        for(int num:nums){
-            max=Math.max(max,num);
-        }
-        return max;
-    }
+    // int fun(int[] nums){
+    //     int max=0;
+    //     for(int num:nums){
+    //         max=Math.max(max,num);
+    //     }
+    //     return max;
+    // }
 }
