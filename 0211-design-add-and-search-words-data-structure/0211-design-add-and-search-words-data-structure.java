@@ -1,24 +1,27 @@
-class Trie{
-    Trie[] child;
+class WordDictionary {
+    
+    WordDictionary[] child;
     boolean isEnd;
-    public Trie(){
-        child=new Trie[26];
+    public WordDictionary() {
+        child=new WordDictionary[26];
         isEnd=false;
     }
-    void insert(String word){
-        Trie cur=this;
+    
+    public void addWord(String word) {
+        WordDictionary cur=this;
         for(char ch:word.toCharArray()){
             if(cur.child[ch-'a']==null){
-                cur.child[ch-'a']=new Trie();
+                cur.child[ch-'a']=new WordDictionary();
             }
             cur=cur.child[ch-'a'];
         }
         cur.isEnd=true;
     }
-    boolean search(String word){
-        return search(word,0,this);
+    
+    public boolean search(String word) {
+       return search(word,0,this);
     }
-    private boolean search(String word,int i,Trie cur){
+    private boolean search(String word,int i,WordDictionary cur){
         if(i==word.length()){
             return cur.isEnd;
         }
@@ -36,20 +39,6 @@ class Trie{
             }
         }
         return false;
-    }
-}
-class WordDictionary {
-    Trie myTrie;
-    public WordDictionary() {
-        myTrie=new Trie();
-    }
-    
-    public void addWord(String word) {
-        myTrie.insert(word);
-    }
-    
-    public boolean search(String word) {
-        return myTrie.search(word);
     }
 }
 
