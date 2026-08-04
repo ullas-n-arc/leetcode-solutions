@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
+| [0739-daily-temperatures](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0739-daily-temperatures) |
 | [0848-shifting-letters](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0848-shifting-letters) |
 | [0877-stone-game](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0877-stone-game) |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0739-daily-temperatures](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0739-daily-temperatures) |
 ## Sorting
 |  |
 | ------- |
@@ -311,4 +313,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1140-stone-game-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1406-stone-game-iii) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
