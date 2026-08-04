@@ -19,15 +19,35 @@ class Solution {
         return inorder(root,k);
     }
     int inorder(TreeNode root,int k){
-        if(root==null) return -1;
-        int left=inorder(root.left,k);
-        if(left!=-1) return left;
-        count++;
-        if(count==k){
-            return root.val;
+        //morris inorder
+        TreeNode cur=root;
+        while(cur!=null){
+            if(cur.left==null){
+                count++;
+                if(k==count){
+                    return cur.val;
+                }
+                cur=cur.right;
+            }else{
+                TreeNode predecessor=cur.left;
+                while(predecessor.right!=null&&predecessor.right!=cur){
+                    predecessor=predecessor.right;
+                }
+                if(predecessor.right==null){
+                    predecessor.right=cur;
+                    cur=cur.left;
+                }
+                if(predecessor.right==cur){
+                    predecessor.right=null;
+                    //visited 2 times 
+                    count++;
+                    if(k==count){
+                        return cur.val;
+                    }
+                    cur=cur.right;
+                }
+            }
         }
-        int right=inorder(root.right,k);
-        if(right!=-1) return right;
         return -1;
     }
 }
