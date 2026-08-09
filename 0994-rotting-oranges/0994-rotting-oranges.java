@@ -3,20 +3,17 @@ class Solution {
         int row;
         int col;
         int time;
-        Pair(int row,int col,int time){
-            this.row=row;
-            this.col=col;
-            this.time=time;
+        Pair(int row_,int col_,int time_){
+            row=row_;
+            col=col_;
+            time=time_;
         }
     }
     public int orangesRotting(int[][] grid) {
-        int rows=grid.length;
-        int cols=grid[0].length;
-        int[][] visited=new int[rows][cols];
         Deque<Pair> q=new ArrayDeque<>();
-        int time=0;
-        for(int i=0;i<rows;i++){
-            for(int j=0;j<cols;j++){
+        int t=0;
+        for(int i=0;i<grid.length;i++){
+            for(int j=0;j<grid[i].length;j++){
                 if(grid[i][j]==2){
                     q.offerLast(new Pair(i,j,0));
                 }
@@ -26,30 +23,25 @@ class Solution {
             Pair p=q.pollFirst();
             int r=p.row;
             int c=p.col;
-            int t=p.time;
-            time=Math.max(time,t);
-            int[][] dirs={{-1,0},{1,0},{0,1},{0,-1}};
-            for(int dir[]:dirs){
-                int newRow=r+dir[0];
-                int newCol=c+dir[1];
-                if(isValid(newRow,newCol,grid,visited)){
-                    q.offerLast(new Pair(newRow,newCol,t+1));
-                    visited[newRow][newCol]=t+1;
+            int time=p.time;
+            int dir[][]={{-1,0},{1,0},{0,-1},{0,1}};
+            for(int d[]:dir){
+                int row=r+d[0];
+                int col=c+d[1];
+                if(row>=0&&row<grid.length&&col>=0&&col<grid[row].length&&grid[row][col]==1){
+                    grid[row][col]=2;
+                    q.offerLast(new Pair(row,col,time+1));
+                    t=Math.max(t,time+1);
                 }
             }
         }
-        for(int i=0;i<rows;i++){
-            for(int j=0;j<cols;j++){
-                if(grid[i][j]==1&&visited[i][j]==0) return -1;
+        for(int i=0;i<grid.length;i++){
+            for(int j=0;j<grid[i].length;j++){
+                if(grid[i][j]==1){
+                    return -1;
+                }
             }
         }
-        return time;
-    }
-    boolean isValid(int r,int c,int[][] grid,int[][] visited){
-        if(r>=grid.length||r<0) return false;
-        if(c>=grid[r].length||c<0) return false;
-        if(grid[r][c]!=1) return false;
-        if(visited[r][c]!=0) return false;
-        return true;
+        return t;
     }
 }
