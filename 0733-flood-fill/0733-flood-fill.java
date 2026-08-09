@@ -1,21 +1,35 @@
 class Solution {
-    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        int initialColor=image[sr][sc];
-        if(initialColor!=color)
-        dfs(image,sr,sc,initialColor,color);
-        return image;
+    class Pair{
+        int row,col,newColor,oldColor;
+        Pair(int row,int col,int newColor,int oldColor){
+            this.row=row;
+            this.col=col;
+            this.newColor=newColor;
+            this.oldColor=oldColor;
+        }
     }
-    void dfs(int[][] image,int sr,int sc,int initialColor,int color){
-        if(image[sr][sc]==initialColor){
-            image[sr][sc]=color;
-            int dir[][]={{0,1},{0,-1},{1,0},{-1,0}};
+    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        if(image[sr][sc]==color) return image;
+        Deque<Pair> q=new ArrayDeque<>();
+        q.offerLast(new Pair(sr,sc,color,image[sr][sc]));
+        image[sr][sc]=color;
+        while(!q.isEmpty()){
+            Pair p=q.pollFirst();
+            int r=p.row;
+            int c=p.col;
+            int newColor=p.newColor;
+            int oldColor=p.oldColor;
+            int dir[][]={{-1,0},{1,0},{0,1},{0,-1}};
             for(int d[]:dir){
-                int newRow=sr+d[0];
-                int newCol=sc+d[1];
-                if(newRow<image.length&&newRow>=0&&newCol<image[newRow].length&&newCol>=0&&image[newRow][newCol]==initialColor){
-                    dfs(image,newRow,newCol,initialColor,color);
+                int row=r+d[0];
+                int col=c+d[1];
+                if(row>=0&&row<image.length&&col>=0&&col<image[row].length&&image[row][col]==oldColor){
+                    image[row][col]=newColor;
+                    q.offerLast(new Pair(row,col,newColor,oldColor));
                 }
             }
         }
+        return image;
     }
+    
 }
