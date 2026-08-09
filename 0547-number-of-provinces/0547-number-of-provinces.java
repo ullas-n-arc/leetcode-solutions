@@ -18,22 +18,17 @@ class Solution {
         for(int i=0;i<n;i++){
             if(!visited[i]){
                 components++;
-                bfs(adj,i,visited);
+                dfs(adj,i,visited);
             }
         }
         return components;
     }
-    void bfs(ArrayList<Integer>[] adj,int node,boolean[] visited){
-        Deque<Integer> q=new ArrayDeque<>();
-        q.offerLast(node);
+    void dfs(ArrayList<Integer>[] adj,int node,boolean[] visited){
         visited[node]=true;
-        while(!q.isEmpty()){
-            int n=q.pollFirst();
-            for(int x:adj[n]){
-                if(!visited[x]){
-                    q.offerLast(x);
-                    visited[x]=true;
-                }
+        for(int x:adj[node]){
+            if(!visited[x]){
+                visited[x]=true;
+                dfs(adj,x,visited);
             }
         }
     }
