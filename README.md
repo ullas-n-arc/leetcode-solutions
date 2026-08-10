@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0217-contains-duplicate) |
+| [0295-find-median-from-data-stream](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -302,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+| [0295-find-median-from-data-stream](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Monotonic Queue
@@ -324,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0295-find-median-from-data-stream](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Greedy
 |  |
@@ -417,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 ## Ternary Search
 |  |
@@ -426,4 +430,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
