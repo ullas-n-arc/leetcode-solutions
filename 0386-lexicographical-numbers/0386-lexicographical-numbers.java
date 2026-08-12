@@ -7,7 +7,7 @@ class Solution {
             if(currentNumber*10<=n){
                 currentNumber*=10;
             }else{
-                while(currentNumber+1>n||currentNumber%10==9){
+                while(currentNumber>=n||currentNumber%10==9){
                     currentNumber/=10;
                 }
                 currentNumber++;
