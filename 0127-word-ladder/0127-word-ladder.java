@@ -14,6 +14,9 @@ class Solution {
         }
         Deque<Pair> q=new ArrayDeque<>();
         q.offerLast(new Pair(beginWord,1));
+        if(mySet.contains(beginWord)){
+            mySet.remove(beginWord);
+        }
         while(!q.isEmpty()){
             Pair p=q.pollFirst();
             String word=p.word;
