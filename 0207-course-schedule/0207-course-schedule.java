@@ -1,38 +1,34 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         ArrayList<Integer>[] adj=new ArrayList[numCourses];
+        int inDegree[]=new int[numCourses];
         for(int i=0;i<numCourses;i++){
             adj[i]=new ArrayList<>();
         }
         for(int i=0;i<prerequisites.length;i++){
-            int u=prerequisites[i][0];
-            int v=prerequisites[i][1];
-            adj[u].add(v);
+            adj[prerequisites[i][0]].add(prerequisites[i][1]);
+            inDegree[prerequisites[i][1]]++;
         }
-        boolean[] visited=new boolean[numCourses];
-        boolean[] pathVisited=new boolean[numCourses];
+        Deque<Integer> q=new ArrayDeque<>();
         for(int i=0;i<numCourses;i++){
-            if(!visited[i]){
-                if(dfs(adj,i,visited,pathVisited)){
-                    return false;
+            if(inDegree[i]==0){
+                q.offerLast(i);
+            }
+        }
+        while(!q.isEmpty()){
+            int node=q.pollFirst();
+            for(int n:adj[node]){
+                inDegree[n]--;
+                if(inDegree[n]==0){
+                    q.offerLast(n);
                 }
+            }
+        }
+        for(int i=0;i<numCourses;i++){
+            if(inDegree[i]!=0){
+                return false;
             }
         }
         return true;
-    }
-    boolean dfs(ArrayList<Integer>[] adj,int node,boolean[] visited,boolean[] pathVisited){
-        visited[node]=true;
-        pathVisited[node]=true;
-        for(int n:adj[node]){
-            if(!visited[n]){
-                if(dfs(adj,n,visited,pathVisited)){
-                    return true;
-                }
-            }else if(pathVisited[n]==true){
-                return true;
-            }
-        }
-        pathVisited[node]=false;
-        return false;
     }
 }
