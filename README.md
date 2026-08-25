@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0033-search-in-rotated-sorted-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0049-group-anagrams](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0075-sort-colors) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0049-group-anagrams](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0217-contains-duplicate) |
@@ -479,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0075-sort-colors](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0295-find-median-from-data-stream](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
