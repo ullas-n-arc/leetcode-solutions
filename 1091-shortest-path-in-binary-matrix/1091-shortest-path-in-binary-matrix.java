@@ -31,6 +31,7 @@ class Solution {
             int row=pair.row;
             int col=pair.col;
             int curDis=pair.dist;
+            if(row==n-1&&col==m-1) return curDis+1;
             int[][] dirs={{-1,0},{1,0},{0,1},{0,-1},{-1,-1},{-1,1},{1,1},{1,-1}};
             for(int dir[]:dirs){
                 int newRow=row+dir[0];
