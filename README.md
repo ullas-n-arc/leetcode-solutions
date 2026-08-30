@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1020-number-of-enclaves) |
+| [1631-path-with-minimum-effort](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [3310-remove-methods-from-project](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
 |  |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [3310-remove-methods-from-project](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3310-remove-methods-from-project) |
 ## Binary Tree
 |  |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1563-stone-game-v](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1563-stone-game-v) |
+| [1631-path-with-minimum-effort](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [2029-stone-game-ix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2029-stone-game-ix) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
@@ -294,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-peak-index-in-a-mountain-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
+| [1631-path-with-minimum-effort](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [3312-sorted-gcd-pair-queries](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Union-Find
@@ -304,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1020-number-of-enclaves) |
+| [1631-path-with-minimum-effort](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Graph Theory
@@ -369,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1631-path-with-minimum-effort](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -495,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 ## Linked List
 |  |
 | ------- |
@@ -579,4 +586,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0735-asteroid-collision) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
