@@ -1,5 +1,4 @@
 class Solution {
-    int minEffort=Integer.MAX_VALUE;
     int[][] dirs={{-1,0},{1,0},{0,1},{0,-1}};
     class Pair{
         int row;
@@ -12,15 +11,33 @@ class Solution {
         }
     }
     public int minimumEffortPath(int[][] heights) {
+        //i will try binary search on answer+bfs
+        //i want to minimize effort say k
+        int low=0;
+        int high=0;
+        for(int row[]:heights){
+            for(int num:row){
+                high=Math.max(high,num);
+            }
+        }
+        while(low<=high){
+            int mid=low+(high-low)/2;
+            if(isFeasible(heights,mid)){
+                high=mid-1;
+            }else{
+                low=mid+1;
+            }
+        }
+        return low;
+    }
+    boolean isFeasible(int[][] heights,int maxEffort){
         int n=heights.length;
         int m=heights[0].length;
         PriorityQueue<Pair> pq=new PriorityQueue<>((a,b)->Integer.compare(a.effort,b.effort));
-        int[][] effort=new int[n][m];
-        for(int row[]:effort){
-            Arrays.fill(row,Integer.MAX_VALUE);
-        }
-        effort[0][0]=0;
         pq.offer(new Pair(0,0,0));
+        int[][] effort=new int[n][m];
+        for(int row[]:effort)Arrays.fill(row,Integer.MAX_VALUE);
+        effort[0][0]=0;
         while(!pq.isEmpty()){
             Pair p=pq.poll();
             int row=p.row;
@@ -38,7 +55,7 @@ class Solution {
                 }
             }
         }
-        return effort[n-1][m-1];
+        return effort[n-1][m-1]<=maxEffort;
     }
     
     boolean isValid(int r,int c,int R,int C){
