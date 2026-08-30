@@ -3,11 +3,9 @@ class Solution {
     class Pair{
         int row;
         int col;
-        int effort;
-        Pair(int row,int col,int effort){
+        Pair(int row,int col){
             this.row=row;
             this.col=col;
-            this.effort=effort;
         }
     }
     public int minimumEffortPath(int[][] heights) {
@@ -31,31 +29,32 @@ class Solution {
         return low;
     }
     boolean isFeasible(int[][] heights,int maxEffort){
+        int minEffort=0;
         int n=heights.length;
         int m=heights[0].length;
-        PriorityQueue<Pair> pq=new PriorityQueue<>((a,b)->Integer.compare(a.effort,b.effort));
-        pq.offer(new Pair(0,0,0));
-        int[][] effort=new int[n][m];
-        for(int row[]:effort)Arrays.fill(row,Integer.MAX_VALUE);
-        effort[0][0]=0;
-        while(!pq.isEmpty()){
-            Pair p=pq.poll();
+        if(n==1&&m==1) return true;
+        Deque<Pair> q=new ArrayDeque<>();
+        q.offerLast(new Pair(0,0));
+        boolean visited[][]=new boolean[n][m];
+        visited[0][0]=true;
+        while(!q.isEmpty()){
+            Pair p=q.pollFirst();
             int row=p.row;
             int col=p.col;
-            int curEffort=p.effort;
             for(int dir[]:dirs){
                 int newRow=row+dir[0];
                 int newCol=col+dir[1];
-                if(isValid(newRow,newCol,n,m)){
-                    int newEffort=Math.max(curEffort,Math.abs(heights[row][col]-heights[newRow][newCol]));
-                    if(newEffort<effort[newRow][newCol]){
-                        effort[newRow][newCol]=newEffort;
-                        pq.offer(new Pair(newRow,newCol,newEffort));
-                    }
+                if(isValid(newRow,newCol,n,m)&&visited[newRow][newCol]==false){
+                   int diff=Math.abs(heights[row][col]-heights[newRow][newCol]);
+                   if(diff<=maxEffort){
+                    if(newRow==n-1&&newCol==m-1) return true;
+                    visited[newRow][newCol]=true;
+                    q.offer(new Pair(newRow,newCol));
+                   }
                 }
             }
         }
-        return effort[n-1][m-1]<=maxEffort;
+        return false;
     }
     
     boolean isValid(int r,int c,int R,int C){
