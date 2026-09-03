@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0016-3sum-closest](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0016-3sum-closest) |
 | [0033-search-in-rotated-sorted-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
+| [0039-combination-sum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0257-binary-tree-paths](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0257-binary-tree-paths) |
 | [0797-all-paths-from-source-to-target](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
