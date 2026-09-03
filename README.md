@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3731-find-missing-elements](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3731-find-missing-elements) |
+| [3876-construct-uniform-parity-array-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3876-construct-uniform-parity-array-ii) |
 ## Math
 |  |
 | ------- |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [3876-construct-uniform-parity-array-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3876-construct-uniform-parity-array-ii) |
 ## Stack
 |  |
 | ------- |
