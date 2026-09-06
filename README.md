@@ -245,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0049-group-anagrams) |
+| [0115-distinct-subsequences](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0208-implement-trie-prefix-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -434,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0115-distinct-subsequences](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0198-house-robber](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0486-predict-the-winner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0486-predict-the-winner) |
