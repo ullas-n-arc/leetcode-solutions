@@ -1,44 +1,41 @@
 class Solution {
     class Pair{
         String word;
-        int length;
-        Pair(String word,int length){
-            this.word=word;
-            this.length=length;
+        int distance;
+        Pair(String _word,int _distance){
+            word=_word;
+            distance=_distance;
         }
     }
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        HashSet<String> mySet=new HashSet<>();
-        for(String s:wordList){
-            mySet.add(s);
-        }
         Deque<Pair> q=new ArrayDeque<>();
-        q.offerLast(new Pair(beginWord,1));
-        if(mySet.contains(beginWord)){
-            mySet.remove(beginWord);
+        q.offerLast(new Pair(beginWord,0));
+        Set<String> set=new HashSet<>(wordList.size());
+        for(String word:wordList){
+            set.add(word);
         }
         while(!q.isEmpty()){
             Pair p=q.pollFirst();
-            String word=p.word;
-            if(word.equals(endWord)){
-                return p.length;
+            String curWord=p.word;
+            int distance=p.distance;
+            if(curWord.equals(endWord)){
+                return distance+1;
             }
-            for(int i=0;i<word.length();i++){
-                //explore a to z
-                StringBuilder sb=new StringBuilder(word);
-                for(int j=0;j<26;j++){
-                    char curChar=sb.charAt(i);
-                    sb.setCharAt(i,(char)(j+'a'));
+            //every char i should check
+            for(int i=0;i<curWord.length();i++){
+                StringBuilder sb=new StringBuilder(curWord);
+                for(char ch='a';ch<='z';ch++){
+                    char original=sb.charAt(i);
+                    sb.setCharAt(i,ch);
                     String newString=sb.toString();
-                    if(mySet.contains(newString)){
-                        q.offerLast(new Pair(newString,p.length+1));
-                        mySet.remove(newString);
+                    if(set.contains(newString)){
+                        q.offerLast(new Pair(newString,distance+1));
+                        set.remove(newString);
                     }
-                    sb.setCharAt(i,curChar);
+                    sb.setCharAt(i,original);
                 }
             }
         }
         return 0;
     }
-
 }
