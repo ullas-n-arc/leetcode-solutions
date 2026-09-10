@@ -1,33 +1,15 @@
 class Solution {
     public int[] plusOne(int[] digits) {
-        Deque<Integer> dq=new ArrayDeque<>();
-        int carry=0;
-        if(digits[digits.length-1]==9){
-            dq.offerFirst(0);
-            carry++;
-        }else{
-            dq.offerFirst(digits[digits.length-1]+1);
-        }
-        for(int i=digits.length-2;i>=0;i--){
-            if(carry+digits[i]>9){
-                carry=1;
-                dq.offerFirst(0);
-            }else{
-                if(carry>0){
-                    dq.offerFirst(carry+digits[i]);
-                    carry=0;
-                }else{
-                    dq.offerFirst(digits[i]);
-                }
+        for(int i=digits.length-1;i>=0;i--){
+            if(digits[i]<9){
+                digits[i]+=1;
+                return digits;
             }
+            digits[i]=0;
         }
-        if(carry>0){
-            dq.offerFirst(carry);
-        }
-        int[] ans=new int[dq.size()];
-        for(int i=0;i<ans.length;i++){
-            ans[i]=dq.pollFirst();
-        }
+        //if i reach here that means all 9
+        int[] ans=new int[digits.length+1];
+        ans[0]=1;
         return ans;
     }
 }
