@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1020-number-of-enclaves](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1020-number-of-enclaves) |
+| [1052-grumpy-bookstore-owner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1052-grumpy-bookstore-owner) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1140-stone-game-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
+| [1052-grumpy-bookstore-owner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1052-grumpy-bookstore-owner) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
