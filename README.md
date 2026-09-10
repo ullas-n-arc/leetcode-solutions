@@ -262,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0848-shifting-letters](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0848-shifting-letters) |
+| [1143-longest-common-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1927-sum-game](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1927-sum-game) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -459,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0877-stone-game](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1140-stone-game-ii) |
+| [1143-longest-common-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1406-stone-game-iii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1563-stone-game-v) |
@@ -648,4 +650,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
