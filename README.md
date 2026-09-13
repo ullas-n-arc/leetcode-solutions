@@ -216,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0066-plus-one](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0231-power-of-two](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0231-power-of-two) |
 | [0486-predict-the-winner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0877-stone-game) |
@@ -436,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0231-power-of-two) |
 | [1386-cinema-seat-allocation](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Divide and Conquer
@@ -488,6 +490,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0231-power-of-two) |
 | [0486-predict-the-winner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [3483-unique-3-digit-even-numbers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3483-unique-3-digit-even-numbers) |
 ## Game Theory
