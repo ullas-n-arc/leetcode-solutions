@@ -1,66 +1,49 @@
 class Solution {
-    int[][] dirs={{-1,0},{1,0},{0,1},{0,-1}};
     class Pair{
         int row;
         int col;
-        Pair(int row,int col){
-            this.row=row;
-            this.col=col;
+        int dist;
+        Pair(int _row,int _col,int _dist){
+            row=_row;
+            col=_col;
+            dist=_dist;
         }
     }
     public int minimumEffortPath(int[][] heights) {
-        //i will try binary search on answer+bfs
-        //i want to minimize effort say k
-        int low=0;
-        int high=0;
-        for(int row[]:heights){
-            for(int num:row){
-                high=Math.max(high,num);
-            }
-        }
-        while(low<=high){
-            int mid=low+(high-low)/2;
-            if(isFeasible(heights,mid)){
-                high=mid-1;
-            }else{
-                low=mid+1;
-            }
-        }
-        return low;
-    }
-    boolean isFeasible(int[][] heights,int maxEffort){
-        int minEffort=0;
-        int n=heights.length;
-        int m=heights[0].length;
-        if(n==1&&m==1) return true;
-        Deque<Pair> q=new ArrayDeque<>();
-        q.offerLast(new Pair(0,0));
-        boolean visited[][]=new boolean[n][m];
-        visited[0][0]=true;
-        while(!q.isEmpty()){
-            Pair p=q.pollFirst();
-            int row=p.row;
-            int col=p.col;
+        int r=heights.length;
+        int c=heights[0].length;
+        PriorityQueue<Pair> pq=new PriorityQueue<>((a,b)->{
+            return Integer.compare(a.dist,b.dist);
+        });
+       int[][] effort=new int[r][c];
+       for(int row[]:effort){
+        Arrays.fill(row,Integer.MAX_VALUE);
+       }
+       effort[0][0]=0;
+       pq.offer(new Pair(0,0,0));
+       int dirs[][]={{-1,0},{0,1},{1,0},{0,-1}};
+       while(!pq.isEmpty()){
+            Pair p=pq.poll();
+            int curRow=p.row;
+            int curCol=p.col;
+            int curEffort=p.dist;
             for(int dir[]:dirs){
-                int newRow=row+dir[0];
-                int newCol=col+dir[1];
-                if(isValid(newRow,newCol,n,m)&&visited[newRow][newCol]==false){
-                   int diff=Math.abs(heights[row][col]-heights[newRow][newCol]);
-                   if(diff<=maxEffort){
-                    if(newRow==n-1&&newCol==m-1) return true;
-                    visited[newRow][newCol]=true;
-                    q.offer(new Pair(newRow,newCol));
-                   }
+                int newRow=curRow+dir[0];
+                int newCol=curCol+dir[1];
+                if(isValid(newRow,newCol,r,c)){
+                    int newEffort=Math.max(curEffort,Math.abs(heights[curRow][curCol]-heights[newRow][newCol]));
+                    if(newEffort<effort[newRow][newCol]){
+                        effort[newRow][newCol]=newEffort;
+                        pq.offer(new Pair(newRow,newCol,newEffort));
+                    }
+                    
                 }
             }
-        }
-        return false;
+       }
+       return effort[r-1][c-1];
     }
-    
     boolean isValid(int r,int c,int R,int C){
-        if(r>=R||c>=C||r<0||c<0){
-            return false;
-        }
+        if(r<0||r>=R||c<0||c>=C) return false;
         return true;
     }
 }
