@@ -1,24 +1,41 @@
 class Solution {
-    public boolean validPath(int n, int[][] edges, int source, int destination) {
-        ArrayList<Integer>[] adj=new ArrayList[n];
-        for(int i=0;i<n;i++){
-            adj[i]=new ArrayList<>();
+    class DSU{
+        int n;
+        int[] size,parent;
+        public DSU(int n){
+            size=new int[n];
+            parent=new int[n];
+            for(int i=0;i<n;i++){
+                parent[i]=i;
+            }
         }
-        for(int i=0;i<edges.length;i++){
-            int u=edges[i][0];
-            int v=edges[i][1];
-            adj[u].add(v);
-            adj[v].add(u);
+        int findUltimateParent(int n){
+            if(n==parent[n]){
+                return n;
+            }
+            return parent[n]=findUltimateParent(parent[n]);
+        } 
+        void unionBySize(int u,int v){
+            int ultimateParentU=findUltimateParent(u);
+            int ultimateParentV=findUltimateParent(v);
+            if(ultimateParentV==ultimateParentU) return;
+            if(size[ultimateParentU]<size[ultimateParentV]){
+                parent[ultimateParentU]=ultimateParentV;
+                size[ultimateParentV]+=size[ultimateParentU];
+            }else{
+                parent[ultimateParentV]=ultimateParentU;
+                size[ultimateParentU]+=size[ultimateParentV];
+            }
         }
-        boolean[] visited=new boolean[n];
-        dfs(adj,visited,source);
-        return visited[destination];
     }
-    void dfs(ArrayList<Integer>[] adj,boolean[] visited,int src){
-        visited[src]=true;
-        for(int neighbor:adj[src]){
-            if(!visited[neighbor])
-                dfs(adj,visited,neighbor);
+    public boolean validPath(int n, int[][] edges, int source, int destination) {
+        DSU dsu=new DSU(n);
+        for(int i=0;i<edges.length;i++){
+            dsu.unionBySize(edges[i][0],edges[i][1]);
         }
+        if(dsu.findUltimateParent(source)==dsu.findUltimateParent(destination)){
+            return true;
+        }
+        return false;
     }
 }
