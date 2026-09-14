@@ -1,9 +1,9 @@
 class Solution {
     class DSU{
         int n;
-        int[] size,parent;
+        int[] rank,parent;
         public DSU(int n){
-            size=new int[n];
+            rank=new int[n];
             parent=new int[n];
             for(int i=0;i<n;i++){
                 parent[i]=i;
@@ -15,23 +15,24 @@ class Solution {
             }
             return parent[n]=findUltimateParent(parent[n]);
         } 
-        void unionBySize(int u,int v){
+        void unionByRank(int u,int v){
             int ultimateParentU=findUltimateParent(u);
             int ultimateParentV=findUltimateParent(v);
             if(ultimateParentV==ultimateParentU) return;
-            if(size[ultimateParentU]<size[ultimateParentV]){
+            if(rank[ultimateParentU]<rank[ultimateParentV]){
                 parent[ultimateParentU]=ultimateParentV;
-                size[ultimateParentV]+=size[ultimateParentU];
-            }else{
+            }else if(rank[ultimateParentV]<rank[ultimateParentU]){
                 parent[ultimateParentV]=ultimateParentU;
-                size[ultimateParentU]+=size[ultimateParentV];
+            }else{
+                parent[ultimateParentV]=ultimateParentU;;
+                rank[ultimateParentU]++;
             }
         }
     }
     public boolean validPath(int n, int[][] edges, int source, int destination) {
         DSU dsu=new DSU(n);
         for(int i=0;i<edges.length;i++){
-            dsu.unionBySize(edges[i][0],edges[i][1]);
+            dsu.unionByRank(edges[i][0],edges[i][1]);
         }
         if(dsu.findUltimateParent(source)==dsu.findUltimateParent(destination)){
             return true;
