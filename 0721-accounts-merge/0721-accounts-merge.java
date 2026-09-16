@@ -16,7 +16,8 @@ class Solution {
             if(parent.get(email).equals(email)){
                 return email;
             }
-            return findRepresentative(parent.get(email));
+            parent.put(email, findRepresentative(parent.get(email)));
+            return parent.get(email);
         }
         void unionByRank(String e1,String e2){
             String uPU=findRepresentative(e1);
