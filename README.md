@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0513-find-bottom-left-tree-value](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0547-number-of-provinces](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0697-degree-of-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0697-degree-of-an-array) |
 | [0705-design-hashset](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0705-design-hashset) |
 | [0713-subarray-product-less-than-k](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0713-subarray-product-less-than-k) |
+| [0721-accounts-merge](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0739-daily-temperatures) |
@@ -256,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
+| [0721-accounts-merge](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1288-remove-covered-intervals](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
@@ -277,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0721-accounts-merge](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0848-shifting-letters](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0848-shifting-letters) |
 | [1143-longest-common-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1927-sum-game](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1927-sum-game) |
@@ -319,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0697-degree-of-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0697-degree-of-an-array) |
 | [0705-design-hashset](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0705-design-hashset) |
+| [0721-accounts-merge](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0904-fruit-into-baskets](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -354,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
