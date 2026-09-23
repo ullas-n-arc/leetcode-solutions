@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0322-coin-change](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0513-find-bottom-left-tree-value](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0513-find-bottom-left-tree-value) |
 | [0542-01-matrix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0542-01-matrix) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
 | [0300-longest-increasing-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
+| [0322-coin-change](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0485-max-consecutive-ones](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
@@ -501,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
+| [0322-coin-change](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0322-coin-change) |
 | [0486-predict-the-winner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0542-01-matrix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -708,4 +711,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
