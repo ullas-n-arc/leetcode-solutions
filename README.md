@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0231-power-of-two](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0279-perfect-squares) |
+| [0343-integer-break](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0343-integer-break) |
 | [0486-predict-the-winner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0877-stone-game) |
@@ -509,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0338-counting-bits) |
+| [0343-integer-break](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0343-integer-break) |
 | [0486-predict-the-winner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0542-01-matrix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
