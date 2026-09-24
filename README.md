@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0376-wiggle-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0376-wiggle-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0485-max-consecutive-ones](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0486-predict-the-winner) |
@@ -514,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0338-counting-bits) |
 | [0343-integer-break](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0343-integer-break) |
 | [0376-wiggle-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0376-wiggle-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0486-predict-the-winner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0542-01-matrix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -726,9 +728,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0279-perfect-squares](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0322-coin-change) |
+| [0416-partition-equal-subset-sum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 ## Complete Knapsack
 |  |
 | ------- |
 | [0279-perfect-squares](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0322-coin-change) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 <!---LeetCode Topics End-->
