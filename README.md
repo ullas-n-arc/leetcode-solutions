@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1096-brace-expansion-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1765-map-of-highest-peak) |
@@ -259,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0739-daily-temperatures) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1096-brace-expansion-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0721-accounts-merge](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1096-brace-expansion-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1288-remove-covered-intervals](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -293,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0721-accounts-merge](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0848-shifting-letters](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0848-shifting-letters) |
+| [1096-brace-expansion-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1143-longest-common-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1927-sum-game](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1927-sum-game) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
@@ -338,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0904-fruit-into-baskets](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1096-brace-expansion-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1386-cinema-seat-allocation](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
@@ -429,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0257-binary-tree-paths](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0257-binary-tree-paths) |
 | [0797-all-paths-from-source-to-target](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0797-all-paths-from-source-to-target) |
+| [1096-brace-expansion-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Queue
 |  |
