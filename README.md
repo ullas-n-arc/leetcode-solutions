@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
+| [0096-unique-binary-search-trees](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
+| [0096-unique-binary-search-trees](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0066-plus-one) |
+| [0096-unique-binary-search-trees](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0231-power-of-two](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0279-perfect-squares) |
@@ -514,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0096-unique-binary-search-trees](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 | [0115-distinct-subsequences](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0198-house-robber](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0213-house-robber-ii) |
@@ -563,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
