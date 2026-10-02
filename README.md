@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0739-daily-temperatures) |
+| [0746-min-cost-climbing-stairs](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 | [0835-image-overlap](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0835-image-overlap) |
 | [0848-shifting-letters](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0848-shifting-letters) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0852-peak-index-in-a-mountain-array) |
@@ -544,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0486-predict-the-winner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0542-01-matrix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0542-01-matrix) |
+| [0746-min-cost-climbing-stairs](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0877-stone-game](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1140-stone-game-ii) |
