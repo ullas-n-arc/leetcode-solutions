@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0198-house-robber](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0198-house-robber) |
@@ -531,6 +532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
 | [0115-distinct-subsequences](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0115-distinct-subsequences) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0279-perfect-squares](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0279-perfect-squares) |
