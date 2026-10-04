@@ -1,39 +1,22 @@
 class Solution {
-    //perfect squares
-    //[1->1]
-    //[2->1]
-    //[3->2] (1+2)
-    //12
-    //[1,4,9]
     int[] dp;
     public int numSquares(int n) {
-        ArrayList<Integer> perfectSquares=new ArrayList<>();
-        int i=1;
-        while(true){
-            int square=i*i;
-            if(square>n) break;
-            perfectSquares.add(square);
-            i+=1;
-        }
         dp=new int[n+1];
         Arrays.fill(dp,-1);
-        dp[0]=0;
-        dp[1]=1;
-        System.out.println(perfectSquares.toString());
-        return myFun(perfectSquares,n);
+        return solve(n);
     }
-    int myFun(List<Integer> arr,int target){
+    int solve(int target){
         if(target==0){
             return 0;
         }
         if(target<0){
-            return Integer.MAX_VALUE - 1;
+            return Integer.MAX_VALUE-1;
         }
         if(dp[target]!=-1) return dp[target];
-        int res=Integer.MAX_VALUE;
-        for(int num:arr){
-            res=Math.min(res,1+myFun(arr,target-num));
+        int result=Integer.MAX_VALUE;
+        for(int i=1;i*i<=target;i++){
+            result=Math.min(result,1+solve(target-i*i));
         }
-        return dp[target]=res;
+        return dp[target]=result;
     }
 }
