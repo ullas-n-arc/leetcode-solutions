@@ -1,25 +1,19 @@
 class Solution {
-    int dp[];
-    int m;
+    int[] memo;
+
     public int integerBreak(int n) {
-        dp=new int[n+1];
-        m=n;
-        Arrays.fill(dp,-1);
-        solve(n);
-        return dp[n];
+        memo = new int[n + 1];
+        return solve(n);
     }
-    int solve(int target){
-        if(target==0){
-            return  1;
-        }
-        if(target<0){
-            return -1;
-        }
-        if(dp[target]!=-1) return dp[target];
-        int res=Integer.MIN_VALUE;
-        for(int i=1;i<m;i++){
-            res=Math.max(res,i*solve(target-i));
-        }
-        return dp[target]=res;
+
+    int solve(int t) {
+        if (t == 1)
+            return 1;
+        if (memo[t] != 0)
+            return memo[t];
+        int res = 0;
+        for (int i = 1; i < t; i++)
+            res = Math.max(res, i * Math.max(t - i, solve(t - i)));
+        return memo[t] = res;
     }
 }
