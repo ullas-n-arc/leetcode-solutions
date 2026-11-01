@@ -190,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0376-wiggle-subsequence](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0376-wiggle-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0485-max-consecutive-ones](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0542-01-matrix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0542-01-matrix) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0279-perfect-squares) |
 | [0343-integer-break](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0343-integer-break) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0486-predict-the-winner](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0877-stone-game) |
