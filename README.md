@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1631-path-with-minimum-effort](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1765-map-of-highest-peak) |
+| [1882-process-tasks-using-servers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1882-process-tasks-using-servers) |
 | [2029-stone-game-ix](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2029-stone-game-ix) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2091-removing-minimum-and-maximum-from-array) |
@@ -547,6 +548,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1631-path-with-minimum-effort](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [1882-process-tasks-using-servers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1882-process-tasks-using-servers) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2333-minimum-sum-of-squared-difference) |
 ## Monotonic Queue
 |  |
