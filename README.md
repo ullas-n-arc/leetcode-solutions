@@ -247,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3312-sorted-gcd-pair-queries](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3312-sorted-gcd-pair-queries) |
+| [3364-minimum-positive-sum-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3364-minimum-positive-sum-subarray) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3483-unique-3-digit-even-numbers) |
@@ -391,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [2381-shifting-letters-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2381-shifting-letters-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3312-sorted-gcd-pair-queries) |
+| [3364-minimum-positive-sum-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3364-minimum-positive-sum-subarray) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Hash Table
 |  |
@@ -544,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
+| [3364-minimum-positive-sum-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3364-minimum-positive-sum-subarray) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Heap (Priority Queue)
 |  |
