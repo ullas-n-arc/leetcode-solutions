@@ -1,17 +1,20 @@
 class Solution {
-    int dp[];
+    int[] memo;
     public int climbStairs(int n) {
-        dp=new int[n+1];
-        Arrays.fill(dp,-1);
+        memo=new int[n+1];
         solve(n);
-        return dp[n];
+        return memo[n];
     }
     int solve(int n){
-        if(n==0) return 1;
-        if(n<0) return 0;
-        if(dp[n]!=-1){
-            return dp[n];
+        if(n<0){
+            return 0;
         }
-        return dp[n]=solve(n-1)+solve(n-2);
+        if(n==0){
+            return 1;
+        }
+        if(memo[n]!=0){
+            return memo[n];
+        }
+        return memo[n]=solve(n-1)+solve(n-2);
     }
 }
