@@ -170,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0063-unique-paths-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0066-plus-one](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -633,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0032-longest-valid-parentheses) |
 | [0053-maximum-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0091-decode-ways) |
 | [0096-unique-binary-search-trees](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0096-unique-binary-search-trees) |
@@ -748,6 +750,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0130-surrounded-regions](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
