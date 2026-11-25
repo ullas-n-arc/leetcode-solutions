@@ -272,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3876-construct-uniform-parity-array-ii](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3886-sum-of-sortable-integers](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3886-sum-of-sortable-integers) |
+| [3934-smallest-unique-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3934-smallest-unique-subarray) |
 ## Math
 |  |
 | ------- |
@@ -451,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3731-find-missing-elements](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3731-find-missing-elements) |
+| [3934-smallest-unique-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3934-smallest-unique-subarray) |
 ## Binary Search
 |  |
 | ------- |
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2333-minimum-sum-of-squared-difference](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/2333-minimum-sum-of-squared-difference) |
 | [3312-sorted-gcd-pair-queries](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3934-smallest-unique-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3934-smallest-unique-subarray) |
 ## Union-Find
 |  |
 | ------- |
@@ -887,6 +890,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/0705-design-hashset) |
+| [3934-smallest-unique-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3934-smallest-unique-subarray) |
 ## Longest Increasing Subsequence
 |  |
 | ------- |
@@ -942,4 +946,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+## Rolling Hash
+|  |
+| ------- |
+| [3934-smallest-unique-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3934-smallest-unique-subarray) |
+## Suffix Array
+|  |
+| ------- |
+| [3934-smallest-unique-subarray](https://github.com/ullas-n-arc/leetcode-solutions/tree/master/3934-smallest-unique-subarray) |
 <!---LeetCode Topics End-->
